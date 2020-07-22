@@ -1,0 +1,17 @@
+.navHeader {
+  .nav-item.nav-link {
+    font-size: 1.5rem !important;
+    color: white;
+    text-align:center;
+
+    &.active {
+      background-color:salmon;
+    }
+  }
+}
+
+// global
+.nav-container-fluid {
+  background: lightsalmon;
+  color: black;
+}

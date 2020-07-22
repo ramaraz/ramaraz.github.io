@@ -1,0 +1,19 @@
+.navWrapper {
+  border: 1px solid;
+  position:relative;
+  color: #12395B;
+  font-size: 20px;
+
+  h1{
+    position: absolute;
+    top: -40px;
+    left: 20px;
+    background: white;
+    width:auto;
+    height:40px;
+  }
+}
+.padding {
+  background: antiquewhite;
+  padding: 2rem;
+}
