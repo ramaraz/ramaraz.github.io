@@ -29,7 +29,7 @@ export default function MyWork () {
                     </Card.Body>
                     <Card.Footer>
                             <span className={'text'}> To visit website
-                                <a target ='_blank' href={"https://www.usaa.com/"}>
+                                <a target ='_blank' rel="noopener noreferrer" href={"https://www.usaa.com/"}>
                                     <button className={"button"}>Click Here</button>
                                 </a>
                             </span>
@@ -58,7 +58,7 @@ export default function MyWork () {
                     </Card.Body>
                     <Card.Footer>
                         <span className={'text'}> To visit website
-                            <a target ='_blank' href={"https://www.tdameritrade.com/home.page"}>
+                            <a target ='_blank'  rel="noopener noreferrer" href={"https://www.tdameritrade.com/home.page"}>
                                 <button className={"button"}>Click Here</button>
                             </a>
                         </span>
