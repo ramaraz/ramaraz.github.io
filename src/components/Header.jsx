@@ -4,7 +4,7 @@ import './Header.scss'
 export default function Header () {
     return (
         <div className="padding">
-            <h1>Ramadevi</h1>
+            <h2>Ramadevi Pasagodla</h2>
             <span>UI Developer </span>
          </div>
     )
