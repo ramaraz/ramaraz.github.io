@@ -1,5 +1,6 @@
 import React from 'react'
 import './MySkills.scss'
+
 export default function MySkills() {
     return (
             <div className={ "row mtb"}>

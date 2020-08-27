@@ -2,7 +2,6 @@ import React from 'react'
 import { Card} from 'react-bootstrap';
 import './MyWork.scss'
 
-
 export default function MyWork () {
     // noinspection LossyEncoding
     return (
