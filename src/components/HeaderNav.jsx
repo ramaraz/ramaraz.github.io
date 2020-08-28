@@ -12,9 +12,9 @@ export default function HeaderNav({selectReport, setSelectReport}) {
         <div className={"navHeader"}>
             <ul className="nav nav-tabs">
                 <li className={selectReport === 'Home' &&  'active'} onClick={() => setSelectReport('Home')}>Home</li>
-                <li className={selectReport === 'AboutMe' &&  'active'} onClick={() => setSelectReport('AboutMe')}>AboutMe</li>
-                <li className={selectReport === 'MySkills' &&  'active'} onClick={() => setSelectReport('MySkills')}>MySkills</li>
-                <li className={selectReport === 'MyWork' &&  'active'} onClick={() => setSelectReport('MyWork')}>MyWork</li>
+                <li className={selectReport === 'AboutMe' &&  'active'} onClick={() => setSelectReport('AboutMe')}>About</li>
+                <li className={selectReport === 'MySkills' &&  'active'} onClick={() => setSelectReport('MySkills')}>Skill Set</li>
+                <li className={selectReport === 'MyWork' &&  'active'} onClick={() => setSelectReport('MyWork')}>Portfolio</li>
             </ul>
         </div>
     )

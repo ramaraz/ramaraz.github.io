@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-import NavHeader from './components/NavHeader'
 import HeaderNav from './components/HeaderNav'
 import Header from './components/Header'
 import Home from './components/Home'
@@ -24,7 +23,7 @@ export default function App() {
   return (
     <div className="container">
        <Header />
-        <HeaderNav selectReport={selectReport} setSelectReport={setSelectReport}/>
+        <HeaderNav selectReport={selectReport} setSelectReport={setSelectReport} />
         <ReportComponent/>
     </div>
    );
