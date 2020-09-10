@@ -1,10 +1,4 @@
 import React from 'react'
-
-import Home from './Home'
-import AboutMe from './AboutMe'
-import MySkills from "./MySkills"
-import MyWork  from './MyWork'
-
 import './HeaderNav.scss'
 
 export default function HeaderNav({selectReport, setSelectReport}) {
