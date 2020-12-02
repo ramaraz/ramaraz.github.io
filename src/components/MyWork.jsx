@@ -7,7 +7,30 @@ export default function MyWork () {
     return (
             <div className="bg-color mtb plr">
                 <h1 className="text-center">Recent Projects</h1>
-                <Card className={'mbl'}>
+
+                <Card className={'mtb'}>
+                    <Card.Header as="h3" style={{color: 'salmon'}}>CLIENT:LOWES <br/>
+                        <span className="text"><b>Location:</b> Mooresville, NC</span><br/>
+                    </Card.Header>
+                    <Card.Body>
+                        <Card.Title as="h4" style={{color: 'salmon'}}>Job Role:UI Developer With React Js</Card.Title>
+                        <span className="span-text">Responsibilities: </span><br/>
+                        <Card.Text>
+                            <ul className='text'>
+                               <li>Coming soon ...</li>
+                            </ul>
+                        </Card.Text>
+                        <span className={"text"}><b>Technologies Used:</b> HTML5, CSS3, SCSS, Javascript, React Js, Bootstrap, React Bootstrap, React Strap</span>
+                    </Card.Body>
+                    <Card.Footer>
+                            <span className={'text'}> To visit website
+                                <a target ='_blank' rel="noopener noreferrer" href={"https://www.usaa.com/"}>
+                                    <button className={"button"}>Click Here</button>
+                                </a>
+                            </span>
+                    </Card.Footer>
+                </Card>
+                <Card className={"mbl"}>
                     <Card.Header as="h3" style={{color: 'salmon'}}>CLIENT: USAA(United Services Automobile Association) <br/>
                         <span className="text"><b>Location:</b> San Antonio, TX</span><br/>
                     </Card.Header>
@@ -35,8 +58,7 @@ export default function MyWork () {
                             </span>
                     </Card.Footer>
                 </Card>
-
-                <Card>
+                <Card className={"mbl"}>
                     <Card.Header as="h3" style={{color: 'salmon'}}>CLIENT: TD Ameritrade <br/>
                         <span className="text"><b>Location:</b> Columbia, MD</span><br/>
                     </Card.Header>
@@ -64,7 +86,6 @@ export default function MyWork () {
                         </span>
                     </Card.Footer>
                 </Card>
-
             </div>
             );
         }
